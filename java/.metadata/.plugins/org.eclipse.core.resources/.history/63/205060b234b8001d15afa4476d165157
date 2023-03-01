@@ -1,0 +1,21 @@
+package ch02;
+
+public class IntegerLiteralExample {
+
+	public static void main(String[] args) {
+		int a = 0b1011;
+		// 8진수
+		int b = 013;
+		// 10진수
+		int c = 11;
+		// 16진수
+		int d = 0xB;
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+
+	}
+
+}
