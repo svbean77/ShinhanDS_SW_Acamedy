@@ -1,0 +1,11 @@
+package ch02;
+
+public class FloatDoubleExample {
+
+	public static void main(String[] args) {
+		double b = 0.12E-2;
+		System.out.println(b);
+
+	}
+
+}
