@@ -8,7 +8,33 @@ public class VariableTest3 {
 		f2();
 		f3();
 		f4();
+		f5();
+		f6();
 
+	}
+
+	private static void f6() {
+		System.out.println("** 함수 f6 실행 **");
+		
+//		형식 문자열
+		int a = 10;
+		float b = 20.123f;
+		System.out.println("a = " + a + ", b = " + b);
+		System.out.printf("a = %-10d, b = %.5f", a, b);
+
+	}
+
+	private static void f5() {
+		System.out.println("** 함수 f5 실행 **");
+
+//		변수의 scope
+		int a = 100;
+		{
+			int b = 200;
+			System.out.println(a + b);
+		}
+//		b는 블록을 벗어났기 때문에 사용 불가
+//		System.out.println(a + b);
 	}
 
 	private static void f4() {
