@@ -6,4 +6,5 @@
  *
  */
 module reviewAcademy {
+	requires java.sql;
 }

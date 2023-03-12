@@ -3,4 +3,6 @@
     <fullyQualifiedTypeName name="java.io.InputStream"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="day004.CreditLineAccount"/>
+    <fullyQualifiedTypeName name="ch07.SupersonicAirplane"/>
 </qualifiedTypeNameHistroy>
