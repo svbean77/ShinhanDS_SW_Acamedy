@@ -28,7 +28,17 @@ public class InheritenceTest {
 	}
 
 	private static void f1() {
+		Student st1 = new Student("123", "홍길동");
+		Student st2 = new Student("456", "김철수", "컴공");
+		Student st3 = new Student("789", "김영희", "정통", 99);
+		ExchangeStudent st4 = new ExchangeStudent("000", "김길동", new String[] { "영어", "독일어" });
 
+		System.out.println(st1);
+		System.out.println(st2);
+		System.out.println(st3);
+		System.out.println(st4);
+
+		System.out.println(Student.getCount() + "명의 학생");
 	}
 
 }
