@@ -5,7 +5,7 @@ public class InheritenceTest {
 	public static void main(String[] args) {
 		f1();
 //		f2();
-		f3();
+//		f3();
 	}
 
 	private static void f3() {
